@@ -1,2 +1,2 @@
-# apeperia_alura
- Página criada em um curso da Alura para práticar o desenvolvimento Mobile First
+# projeto-apeperia
+Arquivos do projeto para a Apeperia
