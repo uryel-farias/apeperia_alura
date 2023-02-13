@@ -3,25 +3,27 @@
     flex-direction: column;
     align-items: center;
 
-    color: #FFF;
+    color: var(--branco);
     text-align: center;
     
-    background-color: #00161C;
+    background-color: var(--bg-chamada-mobile);
 
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
 
 .chamada__titulo {
-    font-family: 'Montserrat', serif;
+    font-family: var(--montserrat);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
+
 
     margin-bottom: 1.5rem;
 }
 
 .chamada__texto {
+    font-family: 'Open Sans';
     font-size: 1.25rem;
     line-height: normal;
 
@@ -29,5 +31,25 @@
 }
 
 .chamada__botao {
+    font-family: 'Open Sans';
     width: 100%;
+
+    border: 1px solid var(--branco);
+    display: block;
+    width: max-content;
+    padding: 1rem 8rem;
+    border-radius: 5px;
+
+}
+
+.chamada__botao:hover{
+    color: black;
+    background-color: var(--branco);
+    transition: .4s;
+}
+
+@media (max-width: 330px){
+    .chamada{
+        padding-top: 15.25rem;
+    }
 }

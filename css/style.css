@@ -1,1 +1,5 @@
- 
+@import './reset.css';
+@import './base.css';
+@import './cabecalho.css';
+@import './chamada.css';
+@import './planos.css';
