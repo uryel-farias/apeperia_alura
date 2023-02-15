@@ -22,3 +22,11 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.botao {
+    border: 1px solid;
+    display: block;
+    width: max-content;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
