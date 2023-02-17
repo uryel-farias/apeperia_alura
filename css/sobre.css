@@ -4,7 +4,8 @@
 }
 
 .sobre__conteudo{
-    margin: 0 .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .sobre__titulo {
@@ -35,4 +36,18 @@
     justify-content: space-evenly;
 
     margin-bottom: 1rem;
+}
+
+.sobre__imagem {
+    display: flex;
+    margin: 0 auto;
+    min-width: 200px;
+}
+
+@media (min-width:768px){
+    .sobre__texto{
+        text-align: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
