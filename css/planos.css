@@ -124,3 +124,21 @@
         margin: 2rem auto;
     }
 }
+
+@media screen and (min-width:1024px){
+    .container__planos {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .cartao {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .planos__cartoes {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+
+    }
+}

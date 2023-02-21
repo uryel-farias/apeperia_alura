@@ -46,3 +46,15 @@
 .item__texto {
     line-height: normal;
 }
+
+@media screen and (min-width: 1014px){
+    .diferenciais {
+        background-color: var(--cinza-claro);
+     
+    }
+
+    .diferenciais__lista{
+        width: 900px;
+        margin: 0 auto;
+    }
+}

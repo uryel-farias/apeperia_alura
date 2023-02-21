@@ -40,3 +40,13 @@
     color: var(--vermelho-forte);
     transition: .4s;
 }
+
+@media screen and (min-width: 1014px){
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

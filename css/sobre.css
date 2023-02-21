@@ -1,6 +1,7 @@
 .sobre {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    display: flex;
 }
 
 .sobre__conteudo{
@@ -44,10 +45,41 @@
     min-width: 200px;
 }
 
+.sobre__texto--divisao{
+    padding-bottom: 2rem;
+}
+
+.sobre__imagem{
+    display: none;
+}
+
+
 @media (min-width:768px){
     .sobre__texto{
         text-align: center;
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+    .sobre__imagem {
+        display: flex;
+        max-width: 100%;
+        padding-right: 2rem;
+
+}
+
+@media screen and (min-width:1024px){
+.sobre {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+    .sobre__texto--divisao{
+        border-bottom: 1px solid var(--cinza-claro);    
+    }
+
+    .sobre__plataformas {
+        padding: 2rem 0 2rem 0;
+    }
+
     }
 }
