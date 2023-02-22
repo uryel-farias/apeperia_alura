@@ -62,3 +62,31 @@
         max-width: 768px;
     }
 }
+
+@media screen and (min-width:1024px){
+    .institucional__container{
+        display: flex;
+        width: 900px;
+        justify-content: space-between;
+    }
+
+    .institucional__contato {
+        margin-top: .5rem;
+    }
+    
+    .institucional__endereco {
+        font-size: 1.2rem;
+    }
+
+    .institucional__info {
+        text-align: start;
+    }
+
+    .institucional__contato-email {
+        display: block;
+    }
+
+    .institucional__video{
+        width: 375px;
+    }
+}
